@@ -1,0 +1,25 @@
+Exception :
+the exception is occure runtime is called exception handling
+
+Exception handling:
+it is the process of finding the runtime error
+
+types of exception
+1.system defined exception
+   this eceptions are already defined in the system
+2.user defined exception
+   user can create own exeptions
+
+blocks used in exception handling
+1.try:
+   a.it throws an exceptions
+   b.this statement which may throw exception will be written
+      in try block
+   c.if exception occured at any line then try block will skip all others lines and throw exception outside the block 
+
+2.catch:
+    a. it catch the exception thrown by try block and handles it 
+    b.for single try block we can write multiple catch blocks and each catch block can only one exception at time
+3.finally :
+   a.this block is an option 
+   b.if you want to execute some statements even if exception occured or not then that statement will written in finally bock
