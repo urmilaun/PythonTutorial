@@ -1,29 +1,18 @@
-# addition of two numbers 
-a = int(input("enter a number a:"))
-b = int(input("Enter a number b:"))
-c=a+b
-print(c)
-
-# substraction of two number
-a = int(input("enter a number a:"))
-b = int(input("Enter a number b:"))
-c=a-b
-print(c)
-
-#multiplication of two number
-a = int(input("enter a number a:"))
-b = int(input("Enter a number b:"))
-c=a*b
-print(c)
-
-# division of two number
-a = int(input("enter a number a:"))
-b = int(input("Enter a number b:"))
-c=a/b
-print(c)
-
-#modulas of two number
-a = int(input("enter a number a:"))
-b = int(input("Enter a number b:"))
-c=a%b
-print(c)
+class Calculation:
+    x=0
+    y=0
+    def __init__(self,x,y):
+            self.a=x
+            self.b=y
+    def addition(self):
+        c=self.a+self.b
+        print("addition is",c)
+    def substraction(self):
+        c=self.a-self.b
+        print("substraction is",c)
+    def multiplication(self):
+        c=self.a*self.b
+        print("multiplication is",c)
+    def division(self):
+        c=self.a/self.b
+        print("division is ",c)
