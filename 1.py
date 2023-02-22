@@ -1,9 +1,7 @@
-ch=chr(38)
-print(ch)
-
-d=ord('b')
-if(d>=96):    #100>=98
-    d=d-32    #100-32=68
-    ch=chr(d) #ch=chr(68)
-    print(ch) #
-
+import numpy as np
+from matplotlib import pyplot as plt
+import pandas as pd
+data=[10,20,30,40,50,60]
+x=np.array(data)
+df=pd.Series(data,index=[10,20,30,40,50,60])
+print(df[20])
